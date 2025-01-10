@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Subscriptions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #6200ea;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #3700b3;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .story-card {
+            margin-bottom: 20px;
+        }
+        .story-card h2 {
+            margin-top: 0;
+        }
+        .story-card p {
+            line-height: 1.6;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta button {
+            padding: 10px 20px;
+            background-color: #6200ea;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .cta button:hover {
+            background-color: #3700b3;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #6200ea;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Story Subscriptions</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Stories</a>
+        <a href="#">Sign Up</a>
+    </nav>
+    <div class="container">
+        <h2>Welcome to Story Subscriptions</h2>
+        <p>Discover a world of fascinating stories written just for you. Sign up to access exclusive content and embark on a journey through captivating tales.</p>
+
+        <div class="cta">
+            <button onclick="alert('Sign-up feature coming soon!')">Sign Up Now</button>
+        </div>
+
+        <div class="story-card">
+            <h2>Story Title 1</h2>
+            <p>A brief summary of the story goes here to entice readers to subscribe and read more...</p>
+            <audio controls>
+                <source src="audio/story1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="story-card">
+            <h2>Story Title 2</h2>
+            <p>A brief summary of another amazing story goes here. Sign up to read the full story.</p>
+            <audio controls>
+                <source src="audio/story2.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="cta">
+            <button onclick="alert('Sign-up feature coming soon!')">Explore More Stories</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Story Subscriptions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
